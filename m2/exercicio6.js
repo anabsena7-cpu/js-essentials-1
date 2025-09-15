@@ -1,5 +1,6 @@
-console.log(`true: ${String(true)}`);
-console.log(`false: ${String(false)}`);
-console.log(`null: ${String(null)}`);
-console.log(`undefined: ${String(undefined)}`);
-console.log(`{}: ${String({})}`);
+var contador = 0;
+contador++;
+contador++;
+contador++;
+console.log(contador)
+//o resultado foi 3, a quantidade de vzs que o ++ foi feito
