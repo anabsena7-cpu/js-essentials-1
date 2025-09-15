@@ -1,5 +1,6 @@
-"use strict";
-minhaVariavel = 10;
-console.log(minhaVariavel);
+let resultadoExpressao = "A idade é: " + 25;
+console.log(`Resultado da expressão: ${resultadoExpressao}`);
 
-//aparece um textão dizendo q ta com erro
+let stringNumerica2 = "10";
+let numeroConvertido2 = +stringNumerica2;
+console.log(`Conversão implícita de string para número: ${numeroConvertido2}, Tipo: ${typeof numeroConvertido2}`);
