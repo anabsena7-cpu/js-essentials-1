@@ -1,6 +1,12 @@
-let num = 5;
-let str = "10";
-let resultado = num + str;
+var mensagemglobal = "oie"
+function exibirMensagem(){
+    var mensagemlocal = "tudo bem?"
+    console.log("dentro da função:");
+    console.log(mensagemglobal);
+    console.log(mensagemlocal);
+}
 
-console.log(`Operação: ${num} + "${str}"`);
-console.log(`Resultado: ${resultado}, Tipo: ${typeof resultado}`);
+exibirMensagem();
+console.log("fora da função:");
+console.log(mensagemglobal);
+console.log(mensagemlocal)//não vai funcionar pq esta dentro da função a criação da variavel
